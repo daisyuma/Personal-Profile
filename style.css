@@ -555,6 +555,39 @@ nav .fa-solid{
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
+
+    .timeline{
+        margin: 50px auto;
+        .container{
+            width: 100%;
+            padding-left: 80px;
+            padding-right: 25px;
+        }
+        .text-box{
+            font-size: 13px;
+        }
+        .text-box small{
+            margin-bottom: 10px;
+        }
+
+        .right-container{
+            left: 0;
+        }
+
+        img{
+            left: 10px;
+        }
+
+        .left-container-arrow, .right-container-arrow{
+            border-right: 15px solid #fff;
+            border-left: 0;
+            left: -15px;
+        }
+    }
+
+    .timeline::after{
+        left: 31px;
+    }
 }
 
 #submit-msg{
