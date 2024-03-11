@@ -92,7 +92,7 @@ nav ul li a:hover::after{
 }
 
 .about-col-1{
-    flex-basis: 35%;
+    flex-basis: 25%;
 }
 
 .about-col-1 img{
@@ -101,7 +101,7 @@ nav ul li a:hover::after{
 } 
 
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 70%;
 }
 
 .sub-title{
@@ -205,7 +205,7 @@ nav ul li a:hover::after{
 }
 
 .text-box{
-    padding: 20px 30px;
+    padding: 15px 15px;
     background: #fff;
     position: relative;
     border-radius: 6px;
@@ -250,13 +250,13 @@ nav ul li a:hover::after{
     }
 }
 
-.text-box h2{
-    font-weight: 600;
+.text-box h3{
+    font-weight: 500;
 }
 
 .text-box small{
     display: inline-block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .left-container-arrow{
@@ -282,6 +282,7 @@ nav ul li a:hover::after{
     border-right: 15px solid #fff;
     left: -15px;
 }
+
 
 
 /* ----services---- */
