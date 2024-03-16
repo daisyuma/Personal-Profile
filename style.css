@@ -4,17 +4,18 @@
     --blue-3:#24305e;
     --red: #f76c6c;
     --yellow: #f8e9a1;
+    --grey: #36454F;
 }
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 body{
     color: #fff;
     background-color: var(--blue-2);
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ----header---- */
@@ -82,7 +83,7 @@ nav ul li a:hover::after{
 /* ----about---- */
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #fff;
 }
 
 .row{
@@ -209,6 +210,7 @@ nav ul li a:hover::after{
     position: relative;
     border-radius: 6px;
     font-size: 15px;
+    color: #848884;
 }
 
 
@@ -253,6 +255,7 @@ nav ul li a:hover::after{
 
 .text-box h3{
     font-weight: 500;
+    color: var(--blue-3);
 }
 
 .text-box small{
@@ -286,19 +289,19 @@ nav ul li a:hover::after{
 
 
 
-/* ----services---- */
-#services{
+/* ----skills---- */
+#skills{
     padding: 30px 0;
 }
 
-.services-list{
+.skills-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
 }
 
-.services-list div{
+.skills-list div{
     background: #262626;
     padding: 40px;
     font-size: 13px;
@@ -307,18 +310,18 @@ nav ul li a:hover::after{
     transition: background 0.5s, transform 0.5s;
 }
 
-.services-list div i{
+.skills-list div i{
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-.services-list div h2{
+.skills-list div h2{
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
 
-.services-list ul{
+.skills-list ul{
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -326,7 +329,15 @@ nav ul li a:hover::after{
     gap: 0.5rem;
 }
 
-.services-list div:hover{
+.skills-list li{
+    padding: 7px 15px;
+    background-color: var(--yellow);
+    border-radius: 1rem;
+    color: var(--grey);
+    font-family: monospace;
+} 
+
+.skills-list div:hover{
     background: var(--red);
     transform: translateY(-10px);
 }
