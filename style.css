@@ -71,8 +71,18 @@ nav ul li a:hover::after{
 }
 
 .header-text{
+    display: inline-block;
     margin-top: 20%;
     font-size: 30px;
+}
+
+.greetings{
+    display: flex;
+    align-items: flex-end;
+}
+
+.header-text .typed-cursor{
+    font-size: 60px;
 }
 
 .header-text h1{
@@ -430,6 +440,9 @@ nav ul li a:hover::after{
 /* ----contact---- */
 #contact{
     background-color: var(--blue-3);
+}
+#contact .container{
+    padding-top: 50px;
 }
 .contact-left{
     flex-basis: 35%;

@@ -18,7 +18,7 @@
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
                 </ul>
@@ -26,7 +26,9 @@
             </nav>
             <div class="header-text">
                 <p>Software Developer</p>
-                <h1>Hi, I'm <span>Daisy Ma</span> :)</h1>
+                <div class="greetings">
+                    <div id="typed-greetings"></div>
+                </div>    
             </div>
         </div>
     </div>
@@ -38,15 +40,16 @@
                     <img src="images/profile2.png">
                     <div class="self-intro">
                         <p>
-                            I am a coding enthusiast and pianist! Music and coding may seem worlds apart, but to me, they
+                            I am a coding enthusiast and pianist! Music and coding may seem worlds apart, but to me,
+                            they
                             are like two peas in a pod. They both require creativity, attention to detail, and the
                             resilience to navigate through trials and errors. Just like composing a symphony or crafting
                             elegant algorithms, both involve the orchestration of numerous intricate components to work
-                            their wonders. So with every note and every line of code, I'm ready to pour my passion and focus
-                            into it. Please join me to make some magic happen!
-    
+                            their wonders. So with every note and every line of code, I'm ready to pour my passion and
+                            focus into it. Please join me to make some magic happen!
+
                         </p>
-                    </div>    
+                    </div>
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About Me</h1>
@@ -256,6 +259,15 @@
         </div>
     </div>
     <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#typed-greetings', {
+            strings: ["<h1>Hi,^500 I'm <span>Daisy Ma</span> :) </h1>"],
+            typeSpeed: 150,
+            lopp: true
+        })
+    </script>
+</body>
 </body>
 
 </html>
