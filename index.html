@@ -28,16 +28,17 @@
                 <p>Software Developer</p>
                 <div class="greetings">
                     <div id="typed-greetings"></div>
-                </div>    
+                </div>
             </div>
         </div>
     </div>
     <!-------about------->
     <div id="about">
         <div class="container">
+            <h1 class="sub-title">About Me</h1>
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/profile2.png">
+                    <img src="images/profile1.png">
                     <div class="self-intro">
                         <p>
                             I am a coding enthusiast and pianist! Music and coding may seem worlds apart, but to me,
@@ -47,12 +48,10 @@
                             elegant algorithms, both involve the orchestration of numerous intricate components to work
                             their wonders. So with every note and every line of code, I'm ready to pour my passion and
                             focus into it. Please join me to make some magic happen!
-
                         </p>
                     </div>
                 </div>
                 <div class="about-col-2">
-                    <h1 class="sub-title">About Me</h1>
                     <div class="tab-titles">
                         <p class="tab-links" onclick="openTab('experience')">Work Experience</p>
                         <p class="tab-links" onclick="openTab('education')">Education</p>
@@ -264,7 +263,9 @@
         var typed = new Typed('#typed-greetings', {
             strings: ["<h1>Hi,^500 I'm <span>Daisy Ma</span> :) </h1>"],
             typeSpeed: 150,
-            lopp: true
+            backSpeed: 150,
+            backDelay: 2000,
+            loop: true
         })
     </script>
 </body>
