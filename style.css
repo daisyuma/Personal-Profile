@@ -117,7 +117,11 @@ nav ul li a:hover::after{
 }
 
 .about-col-1 p{
-    line-height: 26px;
+    line-height: 27px;
+}
+
+.about-col-1 p span{
+    color: var(--yellow);
 }
 
 .about-col-1 img{
@@ -135,6 +139,7 @@ nav ul li a:hover::after{
     font-size: 60px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 10px;
 }
 
 .tab-titles{
@@ -417,7 +422,7 @@ nav ul li a:hover::after{
 }
 
 .layer h3{
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 
@@ -547,6 +552,10 @@ nav .fa-solid{
         font-size: 30px;
     }
 
+    .header-text .typed-cursor{
+        font-size: 30px;
+    }
+
     nav .fa-solid{
         display: block;
         font-size: 25px;
@@ -632,6 +641,24 @@ nav .fa-solid{
 
     .timeline::after{
         left: 31px;
+    }
+
+    /* portfolio */
+    #portfolio h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    #portfolio .layer p{
+        font-size: 13px;
+    }
+
+    #portfolio .layer a{
+        margin-top: 10px;
+        font-size: 15px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
     }
 }
 
