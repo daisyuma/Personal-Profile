@@ -171,8 +171,9 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-    color: var(--yellow);
-    font-size: 14px;
+    background-color: var(--yellow);
+    border-radius: 5px;
+    padding: 0 3px 0 3px;
 }
 
 .tab-contents{
@@ -217,7 +218,11 @@ nav ul li a:hover::after{
         right: -20px;
         top: 32px;
         z-index: 10;
-    }   
+    }
+    
+    h3 span{
+        color: var(--red);
+    }
 }
 @keyframes movedown {
     0%{
