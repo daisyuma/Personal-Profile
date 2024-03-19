@@ -112,18 +112,18 @@ nav ul li a:hover::after{
 
 .self-intro{
     margin-top: 20px;
-    padding: 35px 25px 35px 25px;
-    background-color: var(--blue-1);
-    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    font-size:large;
 }
 
 .about-col-1 p{
-    line-height: 25px;
+    line-height: 26px;
 }
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 50% 50% 62% 38% / 49% 58% 42% 51% ;
+    border-radius: 50% 50% 62% 38% / 49% 58% 42% 51%;
+    margin-top: 1em;
 
 } 
 
