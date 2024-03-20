@@ -94,6 +94,32 @@ nav ul li a:hover::after{
     color: var(--yellow)
 }
 
+.img-box{
+    width:45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.img-box img{
+    height:100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+
+}
+
+.img-box:hover .back-img{
+    bottom: 40px;
+}
+
+.img-box:hover .front-img{
+    left: 54%;
+}
+
 /* ----about---- */
 #about{
     padding: 40px 0;
