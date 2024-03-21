@@ -1,3 +1,4 @@
+<script src="https://kit.fontawesome.com/aa6bbee6f1.js" crossorigin="anonymous"></script>
 <a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -17,10 +18,10 @@ Welcome to my personal portfolio! Here, I highlight my work experience, skills, 
 <img src="images/small_screen_screenshot2.png"  width="300" height="450">
 <img src="images/small_screen_screenshot.png"  width="300" height="450">
 
-This website is designed to be fully responsive, so it adapts to various screen sizes for optimal viewing experience. On smaller screens, users can navigate through different sections by simply clicking on the menu icon located at the top right corner.<i class="fa-solid fa-bars"></i>
+This website is designed to be fully responsive, so it adapts to various screen sizes for optimal viewing experience. On smaller screens, users can navigate through different sections by simply clicking on the menu icon located at the top right corner <i class="fa-solid fa-bars"></i>
 
 
-In the 'Contact Me' section, you can easily reach out to me by sending a message, which will be conveniently received through a Google Form. Additionally, you'll find an option to download my CV for further information. I look forward to connecting with you!
+In the 'Contact Me' section, you can easily reach out to me by sending a message, which will be received through a Google Form. Additionally, you'll find an option to download my CV for further information. I look forward to connecting with you!
 ![Contact Screen Shot](images/contact_page_screenshot.png)
 
 <!-- ROADMAP -->
@@ -37,21 +38,13 @@ In the 'Contact Me' section, you can easily reach out to me by sending a message
 - [ ] Change domain name
 - [ ] Turn into a React App
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 These are some resources I would like to give credit to.
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
+* [Submit a Form to Google Sheets](https://github.com/jamiewilson/form-to-google-sheets)
+* [A JavaScript Typing Animation Library](https://github.com/mattboldt/typed.js/)
+* [GreatStack videos](https://www.youtube.com/@GreatStackDev)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
