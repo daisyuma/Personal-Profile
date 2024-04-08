@@ -1,4 +1,3 @@
-<script src="https://kit.fontawesome.com/aa6bbee6f1.js" crossorigin="anonymous"></script>
 <a name="readme-top"></a>
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -8,9 +7,9 @@ Welcome to my personal portfolio! Here, I highlight my work experience, skills, 
 
 
 ### Built With
-* <i class="fa-brands fa-html5"></i> HTML5
-* <i class="fa-brands fa-css3"></i> CSS
-* <i class="fa-brands fa-js"></i> Javascript
+* HTML5
+* CSS
+* Javascript
 
 
 <!-- USAGE EXAMPLES -->
