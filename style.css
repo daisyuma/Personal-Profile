@@ -416,6 +416,34 @@ nav ul li a:hover::after{
     padding: 50px 0;
 }
 
+.slide-row{
+    display: flex;
+    width: 1700px;
+    transition: 0.5s;
+}
+
+.indicator{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 20px;
+}
+
+.indicator .slide-btn{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 4px;
+    border-radius: 15px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.indicator .active-btn{
+    width: 45px;
+}
+
+/* column */
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -711,6 +739,14 @@ nav .fa-solid{
         width: 30px;
         height: 30px;
         line-height: 30px;
+    }
+
+    #portfolio .slide-row{
+        width: auto;
+    }
+
+    #portfolio .indicator{
+        display: none;
     }
 }
 
