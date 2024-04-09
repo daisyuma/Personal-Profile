@@ -33,7 +33,7 @@ In the 'Contact Me' section, you can easily reach out to me by sending a message
 - [x] Responsive adjustments
 - [x] style change to introduction section
 - [x] Deploy page
-- [ ] Add animated animated image to Home page 
+- [x] Add animated image to Home page 
 - [ ] Change domain name
 - [ ] Turn into a React App
 
