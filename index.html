@@ -63,6 +63,7 @@
                         <p class="tab-links  active-link" onclick="openTab('experience')">Work Experience</p>
                         <p class="tab-links" onclick="openTab('education')">Education</p>
                         <p class="tab-links" onclick="openTab('coursework')">Coursework</p>
+                        <p class="tab-links" onclick="openTab('volunteer')">Volunteer</p>
                     </div>
                     <div class="tab-contents  active-tab" id="experience">
                         <div class="timeline">
@@ -161,6 +162,36 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-contents" id="volunteer">
+                        <div class="timeline">
+                            <div class="container left-container">
+                                <img src="images/potters_logo.jpg">
+                                <div class="text-box">
+                                    <h3><span>Potters Place Mission</span></h3>
+                                    <small>Jan 2024 - Present</small>
+                                    <ul>
+                                        <li>- Serve meals to the homeless community in Downtown Eastside</li>
+                                        <li>- Lead worship team of 6 members</li>
+                                        <li>- Engaged in conversations to encourage and support individuals experiencing
+                                            homelessness</li>
+                                    </ul>
+                                    <span class="left-container-arrow"></span>
+                                </div>
+                            </div>
+                            <div class="container right-container">
+                                <img src="images/piano-logo.jpeg">
+                                <div class="text-box">
+                                    <h3><span>Parkwood Manor</span></h3>
+                                    <small>Jul 2023</small>
+                                    <ul>
+                                        <li>- Played piano for seniors, providing musical entertainment and emotional support.</li>
+                                        <li>- Raised funds for lower-income households in renting musical instruments for school band programs.</li>
+                                    </ul>
+                                    <span class="right-container-arrow"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -186,8 +217,10 @@
                     <i class="fa-solid fa-gears"></i>
                     <h2>Frontend</h2>
                     <ul class="tech-stack">
+                        <li><span>Javascript</span></li>
                         <li><span>Typescript</span></li>
                         <li><span>Angular</span></li>
+                        <li><span>React</span></li>
                         <li><span>HTML/CSS</span></li>
                     </ul>
                 </div>
@@ -211,12 +244,24 @@
             <div class="slide-row" id="slide">
                 <div class="work-list">
                     <div class="work">
+                        <img src="images/project5.png">
+                        <div class="layer">
+                            <h3>Piano Practice Tracker (2024)</h3>
+                            <p>A full-stack application to manage song practice for a band, incorporating CRUD
+                                functionalities with
+                                REST APIs and MongoDB. Integrats Spotify public API to provide artist information and
+                                redirection within the app.</p>
+                            <a href="https://github.com/daisyuma/Piano-Practice-Tracker"><i
+                                    class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
                         <img src="images/project4.png">
                         <div class="layer">
-                            <h3>Personal Project - File Organizer (2024)</h3>
+                            <h3>File Organizer (2024)</h3>
                             <p>A Python automation script that manages newly downloaded files by gathering similar ones
-                                and neatly organizing them into a designated folder.
-                                It also identifies duplicate files and prompts users for deletion, optimizing disk space
+                                and organizing them into a designated folder. <br>
+                                Identifies duplicate files and prompts users for deletion, optimizing disk space
                                 usage.</p>
                             <a href="https://github.com/daisyuma/File-Organizer"><i class="fa-brands fa-github"></i></a>
                         </div>
@@ -224,7 +269,7 @@
                     <div class="work">
                         <img src="images/project2.png">
                         <div class="layer">
-                            <h3>Co-op Project - Server Status Dashboard (2022)</h3>
+                            <h3>Server Status Dashboard (2022)</h3>
                             <p>a Flask webpage that displays the status of multiple servers in the company. Includes
                                 user
                                 authentication. <br>(server name hidden to protect company information)</p>
@@ -233,7 +278,7 @@
                     <div class="work">
                         <img src="images/project1.png">
                         <div class="layer">
-                            <h3>Hackathon - Company Hackathon (2021)</h3>
+                            <h3>Automation Test Visualizer (2021)</h3>
                             <p>In a team of 4, built a script that gathers automation test reports, generates a
                                 visualization of the data, and emails the visualized data to registered users.</p>
                         </div>
@@ -241,7 +286,7 @@
                     <div class="work">
                         <img src="images/project3.png">
                         <div class="layer">
-                            <h3>School Project - Facebark (2020)</h3>
+                            <h3>Relational Database Project - Facebark (2020)</h3>
                             <p>In a group of 3, used relational database to implement a social media platform that
                                 stores
                                 information about dogs and their owners. Used MySQL queries to return aggregated
@@ -253,7 +298,7 @@
             </div>
             <div class="indicator">
                 <span class="slide-btn active-btn" onclick="slideX(this, 0)"></span>
-                <span class="slide-btn" onclick="slideX(this, -600)"></span>
+                <span class="slide-btn" onclick="slideX(this, -900)"></span>
             </div>
         </div>
     </div>
@@ -265,13 +310,13 @@
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
                     <p><i class="fa-regular fa-paper-plane"></i>daisy88129@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>(604)313-2104</p>
+                    <p><i class="fa-solid fa-phone"></i>(604) 313-2104</p>
                     <div class="social-icons">
                         <a href="https://www.linkedin.com/in/daisy-ma-225909178"><i
                                 class="fa-brands fa-linkedin"></i></a>
                         <a href="https://github.com/daisyuma"><i class="fa-brands fa-github"></i></a>
                     </div>
-                    <a href="images/Daisy_Ma_Resume_Full_Stack.pdf" download class="btn btn2">Download CV</a>
+                    <a href="images/Resume_Daisy_Ma.pdf" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="contacts">

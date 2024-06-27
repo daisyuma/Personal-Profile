@@ -418,7 +418,7 @@ nav ul li a:hover::after{
 
 .slide-row{
     display: flex;
-    width: 1700px;
+    width: 2100px;
     transition: 0.5s;
 }
 
